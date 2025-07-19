@@ -1,0 +1,853 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header i{
+    position: absolute;
+    top: 990px;
+    left: 100px;
+}
+
+header nav {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+
+}
+
+header nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header img {
+    margin-top: 35px;
+    margin-left: 55px;
+}
+
+header button {
+    background-color: transparent;
+    padding: 10px 20px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+p {
+    font-size: 50px;
+
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.text {
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.image {
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 580px;
+}
+
+.btn {
+    background-color: #191A23;
+    padding: 10px 20px;
+    position: absolute;
+    top: 520px;
+    left: 60px;
+    border: none;
+    border: 1px solid #191A23;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.img {
+    position: absolute;
+    top: 630px;
+    left: 80px;
+}
+
+.img2 {
+    position: absolute;
+    top: 630px;
+    left: 250px;
+}
+
+.img3 {
+    position: absolute;
+    top: 620px;
+    left: 420px;
+}
+
+.img4 {
+    position: absolute;
+    top: 630px;
+    left: 600px;
+}
+
+.img5 {
+    position: absolute;
+    top: 640px;
+    left: 800px;
+}
+
+.services {
+    position: absolute;
+    top: 830px;
+    left: 80px;
+    height: 40px;
+    width: 120px;
+    background-color: #B9FF66;
+    padding: 0px 10px;
+    font-size: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.text2 {
+    font-size: 18px;
+    position: absolute;
+    top: 750px;
+    left: 240px;
+}
+
+.box {
+    height: 250px;
+    width: 460px;
+    border: 1px solid black;
+    position: absolute;
+    top: 930px;
+    left: 46px;
+    border-radius: 45px;
+    box-shadow:
+        0 3px 0 black,
+        0 6px 0 black,
+        0 14px 0 black;
+
+}
+
+
+
+
+.box span {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    font-size: 25px;
+    margin-top: 50px;
+    background-color: #B9FF66;
+    font-weight: bold;
+}
+
+.div-image {
+    height: 140px;
+    width: 150px;
+    position: absolute;
+    top: 40px;
+    left: 280px;
+}
+
+.div-image2 {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+
+
+.div-text {
+    font-size: 18px;
+    position: absolute;
+    top: 110px;
+    left: 60px;
+}
+
+.box2 {
+    height: 250px;
+    width: 450px;
+    border: 1px solid black;
+    position: absolute;
+    top: 930px;
+    left: 530px;
+    border-radius: 45px;
+    box-shadow:
+        0 3px 0 black,
+        0 6px 0 black,
+        0 13px 0 black;
+
+    background-color: #B9FF66;
+
+}
+
+.box2 span {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    font-size: 25px;
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
+
+.div-image {
+    height: 140px;
+    width: 150px;
+    position: absolute;
+    top: 40px;
+    left: 280px;
+}
+
+
+
+.div-image2 {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+
+.div-text2 {
+    font-size: 18px;
+    position: absolute;
+    top: 110px;
+    left: 60px;
+}
+
+.txt {
+    height: 32px;
+    width: 250px;
+    font-size: 25px;
+    border: 1px solid #B9FF66;
+    position: absolute;
+    top: 1300px;
+    left: 100px;
+    background-color: #B9FF66;
+    font-weight: bold;
+}
+
+.txt2 {
+    position: absolute;
+    top: 1219px;
+    left: 335px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+.accordion {
+    height: 20px;
+    width: 830px;
+    margin: 20px auto;
+    font-family: 'Space Grotesk', sans-serif;
+    position: absolute;
+    top: 1380px;
+    left: 80px;
+}
+
+.accordion input {
+    display: none;
+}
+
+.accordion-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+}
+
+.accordion-label .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-label .number {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.accordion-label .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.symbol::before {
+    content: "+";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Accordion content hidden by default */
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #B9FF66;
+    border-radius: 0 0 20px 20px;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 20px;
+}
+
+/* Accordion 1 */
+#acc1:checked+.accordion-label {
+    background: #B9FF66;
+    border-radius: 20px 20px 0 0;
+}
+
+#acc1:checked+.accordion-label .symbol::before {
+    content: "-";
+}
+
+#acc1:checked+.accordion-label+.accordion-content {
+    max-height: 300px;
+    padding: 20px;
+}
+
+/* Accordion 2 */
+#acc2:checked+.accordion-label {
+    background: #B9FF66;
+    border-radius: 20px 20px 0 0;
+}
+
+#acc2:checked+.accordion-label .symbol::before {
+    content: "-";
+}
+
+#acc2:checked+.accordion-label+.accordion-content {
+    max-height: 300px;
+    padding: 20px;
+}
+
+/* Accordion 3 */
+#acc3:checked+.accordion-label {
+    background: #B9FF66;
+    border-radius: 20px 20px 0 0;
+}
+
+#acc3:checked+.accordion-label .symbol::before {
+    content: "-";
+}
+
+#acc3:checked+.accordion-label+.accordion-content {
+    max-height: 300px;
+    padding: 20px;
+}
+
+/* Accordion 4 */
+#acc4:checked+.accordion-label {
+    background: #B9FF66;
+    border-radius: 20px 20px 0 0;
+}
+
+#acc4:checked+.accordion-label .symbol::before {
+    content: "-";
+}
+
+#acc4:checked+.accordion-label+.accordion-content {
+    max-height: 300px;
+    padding: 20px;
+}
+
+/* Accordion 5 */
+#acc5:checked+.accordion-label {
+    background: #B9FF66;
+    border-radius: 20px 20px 0 0;
+}
+
+#acc5:checked+.accordion-label .symbol::before {
+    content: "-";
+}
+
+#acc5:checked+.accordion-label+.accordion-content {
+    max-height: 300px;
+    padding: 20px;
+}
+
+/* Accordion 6 */
+#acc6:checked+.accordion-label {
+    background: #B9FF66;
+    border-radius: 20px 20px 0 0;
+}
+
+#acc6:checked+.accordion-label .symbol::before {
+    content: "-";
+}
+
+#acc6:checked+.accordion-label+.accordion-content {
+    max-height: 300px;
+    padding: 20px;
+}
+
+.txt3 {
+    height: 38px;
+    width: 300px;
+    border: 1px solid #B9FF66;
+    position: absolute;
+    top: 2400px;
+    left: 100px;
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: #B9FF66;
+}
+
+.txt4 {
+    font-size: 18px;
+    position: absolute;
+    top: 2320px;
+    left: 400px;
+}
+
+
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 2500px;
+    left: 50px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.left {
+    flex: 1;
+    padding: 30px;
+}
+
+.radio-buttons {
+    margin-bottom: 20px;
+}
+
+.radio-buttons label {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 50%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submit-btn {
+    width: 55%;
+    padding: 14px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.right {
+
+    margin-top: 70px;
+
+}
+
+.foot {
+    height: 550px;
+    width: 900px;
+    ;
+    border: 1px solid #191A23;
+    position: absolute;
+    top: 3150px;
+    left: 70px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #191A23;
+    display: flex;
+}
+
+.foot img {
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.foot a {
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+.nav2 {
+    position: absolute;
+    top: 80px;
+    left: 300px;
+
+}
+
+.iconic1 {
+    position: absolute;
+    top: 10px;
+    left: 680px;
+}
+
+.iconic2 {
+    position: absolute;
+    top: 10px;
+    left: 730px;
+}
+
+.iconic3 {
+    position: absolute;
+    top: 10px;
+    left: 780px;
+}
+
+.Contact {
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    border-radius: 5px;
+    padding-left: 7px;
+    border: 1px solid #B9FF66;
+    background-color: #B9FF66;
+    font-weight: bold;
+}
+
+.email {
+    font-size: 15px;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    color: #FFFFFF;
+}
+
+.phone {
+    font-size: 15px;
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    color: #FFFFFF;
+}
+
+.address {
+    font-size: 15px;
+    position: absolute;
+    top: 270px;
+    left: 30px;
+    color: #FFFFFF;
+}
+
+.email-section {
+    height: 130px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    background-color: #292A32;
+}
+
+.email-section input {
+    border: 1px solid #FFFFFF;
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    background-color: #292A32;
+}
+
+.email-section button {
+    border: 1px solid #B9FF66;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    background-color: #B9FF66;
+}
+
+.line {
+    width: 85%;
+    height: 2px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 420px;
+    left: 80px;
+    margin: 20px 0;
+}
+
+.footer-text {
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer-text2 {
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 576px) {
+    body {
+        padding: 10px;
+        height: 100vh;
+    }
+
+    .material-icons{
+        position: absolute;
+        top: 40px;
+        right:30px ;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    header img {
+        margin: 10px 0;
+        width: 120px;
+        height: auto;
+    }
+
+    header nav {
+
+        display: none;
+    }
+
+    header nav a {
+        padding: 10px;
+        font-size: 16px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    header button {
+        display: none;
+    }
+
+    p {
+        font-size: 28px;
+        margin: 20px 10px 10px;
+    }
+
+    .text {
+        font-size: 16px;
+        margin: 5px 10px;
+    }
+
+    .box span {
+        position: absolute;
+        top: 1670px;
+        left: 130px;
+
+    }
+
+
+    .box2 span {
+        position: absolute;
+        top: 1970px;
+        left: 130px;
+
+    }
+
+    .div-image {
+        margin-right: 50px;
+    }
+
+
+    .txt {
+        position: absolute;
+        top: 2590px;
+        left: 100px;
+    }
+
+    .txt2 {
+        position: absolute;
+        top: 2700px;
+        left: 100px;
+    }
+
+    .accordion {
+        position: absolute;
+        top: 2500px;
+        left: 50px;
+    }
+
+
+
+
+
+    .container {
+        flex-direction: column;
+        position: absolute;
+        top: 3500px;
+        left: 50px;
+    }
+
+
+
+    .image,
+    .btn,
+    .img,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .services,
+    .text2,
+    .box,
+    .box2,
+
+    
+
+    .txt3,
+    .txt4 {
+        position: static !important;
+        width: 95% !important;
+        margin: 15px auto !important;
+    }
+
+    .box,
+    .box2 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .div-image,
+    .div-image2,
+    .div-text,
+    .div-text2 {
+        position: static !important;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .accordion {
+        width: 95% !important;
+        height: 200px;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .submit-btn {
+        width: 100% !important;
+    }
+
+
+
+    .right {
+        margin: 10px auto;
+        display: none;
+    }
+
+    .foot {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        position: absolute;
+        top: 4000px;
+        left: 50px;
+        width: 300px;
+        margin-left: 20px;
+        
+
+    }
+
+    .foot img {
+        margin: 20px auto;
+    }
+
+    .nav2,
+    .iconic1,
+    .iconic2,
+    .iconic3,
+    .Contact,
+    .email,
+    .phone,
+    .address,
+    .email-section,
+    .line,
+    .footer-text,
+    .footer-text2 {
+        position: static !important;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .email-section {
+        display: none;
+    }
+
+    .email-section input,
+    .email-section button {
+        margin: 10px auto;
+        display: block;
+        width: 90%;
+    }
+
+    .line {
+        width: 90%;
+    }
+
+    .footer-text,
+    .footer-text2 {
+        font-size: 16px;
+    }
+}
